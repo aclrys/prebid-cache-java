@@ -1,4 +1,4 @@
-### This is the Java version of Prebid Cache. See the Prebid Server [Feature List](https://docs.prebid.org/prebid-server/features/pbs-feature-idx.html) and [FAQ entry](https://docs.prebid.org/faq/prebid-server-faq.html#why-are-there-two-versions-of-prebid-server-are-they-kept-in-sync) to understand the differences between PBS-Java and [PBS-Go](https://github.com/aclrysprebid-cache).
+### This is the Java version of Prebid Cache. See the Prebid Server [Feature List](https://docs.prebid.org/prebid-server/features/pbs-feature-idx.html) and [FAQ entry](https://docs.prebid.org/faq/prebid-server-faq.html#why-are-there-two-versions-of-prebid-server-are-they-kept-in-sync) to understand the differences between PBS-Java and [PBS-Go](https://github.com/aclrys/prebid-cache).
 
 # _Prebid Cache Java_
 Prebid Cache provides the caching service component for the Prebid Server project.  Currently, the API supports both the GET and POST endpoints.  Prebid Cache Java provides a Redis and Aerospike implementation for the cache. By default it uses Aerospike. How to switch between Redis And Aerospike described at Cache Configuration section. However, Prebid Cache is designed to support any cache implementation.  
@@ -24,7 +24,7 @@ This section describes how to download, install and run the application.
 (1). Clone the repo:
 
 ```bash
-$ git clone https://github.com/aclrysprebid-cache-java.git
+$ git clone https://github.com/aclrys/prebid-cache-java.git
 ```
 
 (2). Start Redis or Aerospike:
@@ -498,4 +498,4 @@ $ git pull
 $ mvn clean gplus:execute package
 ```
 
-If there are any questions, issues, or concerns, please submit them to https://github.com/aclrysprebid-cache-java/issues/.
+If there are any questions, issues, or concerns, please submit them to https://github.com/aclrys/prebid-cache-java/issues/.
